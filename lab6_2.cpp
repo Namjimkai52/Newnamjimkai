@@ -17,10 +17,10 @@ double pythagoras(double xcomp, double ycomp){
     return sqrt(xcomp * xcomp + ycomp * ycomp) ;
 }
 void showResult(double result_vec_length, double result_vec_direction){
-    cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << "\n";
-    cout << "Length of the resultant vector = " << result_vec_length << "\n";   
-    cout << "Direction of the resultant vector (deg) = " << result_vec_direction << "\n";
-    cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << "\n";
+    cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << "\n" ;
+    cout << "Length of the resultant vector = " << result_vec_length << "\n" ;   
+    cout << "Direction of the resultant vector (deg) = " << result_vec_direction << "\n" ;
+    cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << "\n" ;
 }
 int main(){
     double l1,l2,a1,a2,xcomp,ycomp,result_vec_length,result_vec_direction;
