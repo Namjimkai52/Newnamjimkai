@@ -13,7 +13,7 @@ int main(){
        if(NUM%2 == 0){
             counter_even = counter_even + 1 ;
 
-        // cout << "#Even numbers = " << NUM1  ;
+        // cout << "#Even numbers = " << NUM1 ;
        }else {
             counter_odd = counter_odd + 1 ;
 
